@@ -4,7 +4,7 @@ import { Clock, Mail, Map, Phone, Target } from 'lucide-react'
 
 export default function({ object }: HomeProps) {
     return (
-        <footer id='contacts' className={styles.footer}>
+        <footer id='contatos' className={styles.footer}>
             <section className={styles.section}>
                 <h2 className={styles.title}>Contatos</h2>
 

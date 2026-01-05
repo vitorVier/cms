@@ -38,4 +38,5 @@ export interface ServiceProps {
         url: string;
     }
     description: string;
+    slug: string;
 }
