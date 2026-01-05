@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   title: "DevNotors - Sua oficina especializada!",
   description: "Oficina de carros em Santo Cristo - RS",
   keywords: ['oficina', 'carros', 'manutenção'],
-  openGraph: {
-    images: [`${process.env.NEXT_PUBLIC_URL}/logo.jpg`]
-  },
+  // openGraph: {
+  //   images: [`${process.env.NEXT_PUBLIC_URL}/logo.jpg`]
+  // },
   robots: {
     index: true,
     follow: true,
