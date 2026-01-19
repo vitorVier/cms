@@ -8,6 +8,8 @@ import { HomeProps } from "@/utils/home.type";
 import { MenuProps } from "@/utils/menu.type";
 import { Phone } from "lucide-react";
 
+export const dynamic = "force-dynamic";
+
 export default async function Home() {
   const { object }: HomeProps = await getData();
   const menu: MenuProps = await getSubMenu();
