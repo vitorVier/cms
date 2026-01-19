@@ -5,7 +5,7 @@ export async function getData() {
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/objects/6924be02333296f4d0366f8c?pretty=true&read_key=${process.env.READ_KEY}&depth=1&props=slug,title,metadata,type`, {
       next: {
         revalidate: 120
-      }, cache: 'no-store'
+      }
     });
 
     if (!res.ok) {
