@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { Container } from "@/components/container";
 import { Hero } from "@/components/hero";
 import Footer from "@/components/home/footer";
