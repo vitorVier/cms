@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DevNotors - Sua oficina especializada!",
+  title: "DevMotors - Sua oficina especializada!",
   description: "Oficina de carros em Santo Cristo - RS",
   keywords: ['oficina', 'carros', 'manutenção'],
   // openGraph: {
